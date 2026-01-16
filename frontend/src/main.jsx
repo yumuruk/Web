@@ -1,11 +1,8 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import Signup from './Signup.jsx'
+// index.css가 파일이 있다면 놔두시고, 없으면 이 줄도 지우세요.
+import './index.css' 
+import InterviewInterface from './InterviewInterface.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Signup />
-  </StrictMode>,
+    <InterviewInterface />
 )
